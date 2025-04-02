@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(0, 40, 62);
+}
+#container{
+    display: grid;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: rgb(203, 203, 203);
+    border: 3px solid rgb(203, 203, 203);
+    grid-template-columns: repeat(16, 35px);
+    grid-template-rows: repeat(16, 35px);
+    gap: 1px;
+}
+.grid-boxes{
+    background-color: rgb(93, 140, 181);
+}
+.snake{
+    border-radius: 50%;
+    border: 1px solid rgb(17, 17, 17);
+    width: 30px;
+    height: 30px;
+    margin: 1.7px auto;
+    position: relative;
+    z-index: 3;
+}
+.red{
+    background: radial-gradient(rgb(145, 29, 29) 0%, rgb(238, 13, 13) 100%);
+}
+.blue{
+    background: radial-gradient(rgb(9, 126, 189) 0%, rgb(35, 201, 247) 100%);
+}
+.green{
+    background: radial-gradient(rgb(80, 158, 15) 0%, rgb(76, 202, 18) 100%);
+}
+.purple{
+    background: radial-gradient(rgb(27, 47, 175) 0%, rgb(98, 98, 255) 100%);
+}
+.orange{
+    background: radial-gradient(rgb(205, 115, 19) 0%, rgb(255, 177, 104) 100%);
+}
+.aqua{
+    background: radial-gradient(rgb(15, 146, 128) 0%, rgb(68, 255, 236) 100%);
+}
+.pink{
+    background: radial-gradient(rgb(141, 65, 212) 0%, rgb(208, 68, 255) 100%);
+}
+.hide{
+    display: none;
+}
+.hideO{
+    opacity: 0%;
+}
+button{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(93, 140, 181);
+    border: 3px solid rgb(203, 203, 203);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(203, 203, 203);
+    border: 3px solid rgb(93, 140, 181);
+}
+#counter{
+    margin-top: 20px;
+    padding: 1px 5px;
+    width: fit-content;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(93, 140, 181);
+    border: 3px solid rgb(203, 203, 203);
+}
