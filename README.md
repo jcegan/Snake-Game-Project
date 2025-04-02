@@ -33,4 +33,4 @@ git clone https://github.com/jcegan/Snake-Game-Project.git
 
 -Navigate into the project directory
 
--Open Snake.html in your browser to start playing the game.
+-Open Snake.html in your browser to start playing the game
